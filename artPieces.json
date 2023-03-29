@@ -1,0 +1,90 @@
+[
+    {
+        "id": 4,
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 170 x 117 cm",
+        "name": "Nuevitas",
+        "image": "./nuevitas.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": 5,
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 145 x 145 cm",
+        "name": "Vortex",
+        "image": "./vortex.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": 6,
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 38 x 64 cm",
+        "name": "Trapped",
+        "image": "./trapped.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": 7,
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 125 x 152 cm",
+        "name": "Midnight",
+        "image": "./midnight.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": 8,
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 145 x 145 cm",
+        "name": "Time",
+        "image": "./time.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": 9,
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 150 x 117 cm",
+        "name": "Nuevitas II ",
+        "image": "./nuevitasII.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": 10,
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 84 x 114 cm",
+        "name": "Alba",
+        "image": "./alba.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": 11,
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 125 x 117 cm",
+        "name": "CountDown",
+        "image": "./countdown.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": 12,
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 147 x 101 cm",
+        "name": "Force",
+        "image": "./force.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": 13,
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 99 x 99 cm",
+        "name": "Dark Blue",
+        "image": "./darkblue.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": 14,
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 140 x 117 cm",
+        "name": "Light Sabers",
+        "image": "./lightsabers.png",
+        "category": "Thorvald Art"
+    }
+]

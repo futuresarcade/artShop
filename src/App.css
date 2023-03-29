@@ -1,0 +1,63 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active {
+  color: #0095f6;
+}
+
+.art-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.art-piece {
+  width: calc(33.33% - 1rem);
+  margin-right: 5px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.art-piece img {
+  max-width: 100%;
+  min-width: 200px;
+}
+
+.art-piece h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.art-piece p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+}
