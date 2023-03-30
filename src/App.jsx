@@ -6,7 +6,7 @@ function App() {
   const [artPieces, setArtPieces] = useState([]);
 
   useEffect(() => {
-    fetch('./artPieces.json')
+    fetch('/artPieces.json')
       .then(response => response.json())
       .then(data => setArtPieces(data));
   }, []);
