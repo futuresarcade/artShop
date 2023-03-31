@@ -86,5 +86,46 @@
         "name": "Light Sabers",
         "image": "./lightsabers.png",
         "category": "Thorvald Art"
+    },
+    {
+        "id": 15,
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 124 x 124 cm",
+        "name": "Count Down II",
+        "image": "./countdown2.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": 16,
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 84 x 84 cm",
+        "name": "Domino",
+        "image": "./domino.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": 17,
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 173 x 140 cm",
+        "name": "Opposite",
+        "image": "./opposite.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": 18,
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 124 x 124 cm",
+        "name":"Still Life",
+        "image": "./stilllife.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": 19,
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 183 x 145 cm",
+        "name": "Encounter",
+        "image": "./ovni.png",
+        "category": "Thorvald Art"
     }
+
 ]
