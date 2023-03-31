@@ -66,9 +66,11 @@ function ArtList({ artPieces }) {
 
   function handleNextPage() {
     setPage(page + 1)
+    window.scrollTo(0, 0)
   }
   function handlePrevPage() {
     setPage(page - 1)
+    window.scrollTo(0, 0)
   }
 
 
@@ -144,7 +146,7 @@ function CategoryPage({ category, artPieces }) {
             <Link to={{ pathname: location.pathname, search: `?page=${page - 1}` }} onClick={handlePrevPage}>Prev</Link>
           )}
           {!isLastPage && (
-            <Link to={{ pathname: location.pathname, search: `?page=${page + 1}` }} onClick={handleNextPage}>Next</Link>
+            <Link className="next" to={{ pathname: location.pathname, search: `?page=${page + 1}` }} onClick={handleNextPage}>Next</Link>
           )}
         </div>
       )}
