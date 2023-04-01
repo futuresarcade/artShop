@@ -24,7 +24,7 @@ function App() {
             </li>
             {categories.map(category => (
               <li key={category}>
-                <NavLink to={`/#/${category}`} className="active">{category}</NavLink>
+                <NavLink to={`/${category}`} className="active">{category}</NavLink>
               </li>
             ))}
           </ul>
@@ -40,7 +40,7 @@ function App() {
 
 
           {categories.map(category => (
-            <Route key={category} path={`/#/${category}`} element={
+            <Route key={category} path={`/${category}`} element={
               <>
                 <h1>{category}</h1>
                 <CategoryPage artPieces={artPieces.filter(item => item.category === category)} />
