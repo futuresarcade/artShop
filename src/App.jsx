@@ -24,7 +24,7 @@ function App() {
             </li>
             {categories.map(category => (
               <li key={category}>
-                <NavLink to={`/#/${category}`} className="active">{category}</NavLink>
+                <NavLink to={`/${category}`} className="active">{category}</NavLink>
               </li>
             ))}
           </ul>
