@@ -47,7 +47,7 @@ function App() {
               </>
             } />
           ))}
-          <Route path="/:id" element={<Artwork />} />
+          <Route exact path="/:id" element={<Artwork />} />
         </Routes>
       </div>
     </Router>
@@ -62,7 +62,7 @@ function Artwork() {
     fetch("artPieces.json")
       .then(res => res.json())
       .then(data => {
-        const select = data.find(object => object.id == id)
+        const select = data.find(item => item.id == id)
         setArtwork(select)
     })
   }, [])
