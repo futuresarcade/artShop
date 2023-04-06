@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link, NavLink, useLocation, useParams } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link, NavLink, useLocation, useParams } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
         </nav>
 
         <Routes>
-          <Route path="/" element={
+          <Route exact path="/" element={
             <>
               <h1>Art Works</h1>
               <ArtList artPieces={artPieces} />
@@ -40,14 +40,14 @@ function App() {
 
 
           {categories.map(category => (
-            <Route key={category} path={`/${category}`} element={
+            <Route key={category} exact path={`/${category}`} element={
               <>
                 <h1>{category}</h1>
-                <CategoryPage artPieces={artPieces.filter(item => item.category === category)} />
+                <CategoryPage artPieces={artPieces.filter(item => item.category == category)} />
               </>
             } />
           ))}
-          <Route path="/:id" element={<Artwork />} />
+          <Route exact path="/:id" element={<Artwork />} />
         </Routes>
       </div>
     </Router>
