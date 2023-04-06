@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HashRouter as Router, Route, Routes, Link, NavLink, useLocation, useParams } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link, NavLink, useLocation, useParams } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
         </nav>
 
         <Routes>
-          <Route exact path="/" element={
+          <Route path="/" element={
             <>
               <h1>Art Works</h1>
               <ArtList artPieces={artPieces} />
@@ -47,7 +47,7 @@ function App() {
               </>
             } />
           ))}
-          <Route exact path="/:id" element={<Artwork />} />
+          <Route path="/:id" element={<Artwork />} />
         </Routes>
       </div>
     </Router>
@@ -62,7 +62,7 @@ function Artwork() {
     fetch("artPieces.json")
       .then(res => res.json())
       .then(data => {
-        const select = data.find(object => object.id = id)
+        const select = data.find(object => object.id == id)
         setArtwork(select)
     })
   }, [])
