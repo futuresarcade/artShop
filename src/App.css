@@ -62,6 +62,11 @@ nav a.active {
   font-size: 0.8rem;
 }
 
+.fullImage {
+  width: 100%;
+  margin-top: 40px;
+}
+
 .pagination a {
   margin: 20px;
 }

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link, NavLink, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link, NavLink, useLocation, useParams } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
-              <h1>Art Pieces</h1>
+              <h1>Art Works</h1>
               <ArtList artPieces={artPieces} />
             </>
           } />
@@ -47,10 +47,34 @@ function App() {
               </>
             } />
           ))}
+          <Route path="/:id" element={<Artwork />} />
         </Routes>
       </div>
     </Router>
   );
+}
+
+function Artwork() {
+  const [artwork, setArtwork] = useState([])
+  const { id } = useParams()
+
+  useEffect(() => {
+    fetch("artPieces.json")
+      .then(res => res.json())
+      .then(data => {
+        const select = data.find(object => object.id == id)
+        setArtwork(select)
+    })
+  }, [id])
+  console.log(artwork)
+  
+  return (
+    <div>
+      <img src={artwork.image} alt={artwork.name} className="fullImage" />
+      <h2>{artwork.name}</h2>
+    </div>
+  )
+
 }
 
 function ArtList({ artPieces }) {
@@ -79,10 +103,12 @@ function ArtList({ artPieces }) {
       <div className="art-list">
         {items.map(item => (
           <div className="art-piece" key={item.id}>
+            <Link to={`/${item.id}`} >
             <img src={item.image} alt={item.name} />
             <h2>{item.name}</h2>
             <p>by {item.author}</p>
-            <p>{item.dimensions}</p>
+              <p>{item.dimensions}</p>
+            </Link>
           </div>
         ))}
       </div>
@@ -133,12 +159,14 @@ function CategoryPage({ category, artPieces }) {
   return (
     <>
       <div className="art-list">
-        {items.map(piece => (
-          <div className="art-piece" key={piece.id}>
-            <img src={piece.image} alt={piece.name} />
-            <h2>{piece.name}</h2>
-            <p>by {piece.author}</p>
-            <p>{piece.dimensions}</p>
+        {items.map(item => (
+          <div className="art-piece" key={item.id}>
+            <Link to ={`/${item.id}`}>
+            <img src={item.image} alt={item.name} />
+            <h2>{item.name}</h2>
+            <p>by {item.author}</p>
+              <p>{item.dimensions}</p>
+            </Link>
           </div>
         ))}
       </div>
