@@ -62,10 +62,10 @@ function Artwork() {
     fetch("artPieces.json")
       .then(res => res.json())
       .then(data => {
-        const select = data.find(object => object.id == id)
+        const select = data.find(object => object.id = id)
         setArtwork(select)
     })
-  }, [id])
+  }, [])
   console.log(artwork)
   
   return (
