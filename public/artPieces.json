@@ -127,6 +127,14 @@
         "name": "Dark Blue",
         "image": "./darkblue.png",
         "category": "Thorvald Art"
+    },
+    {
+        "id": "17",
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 112 x 112 cm",
+        "name": "Butterfly",
+        "image": "./butterfly.png",
+        "category": "Thorvald Art"
     }
 
 ]
