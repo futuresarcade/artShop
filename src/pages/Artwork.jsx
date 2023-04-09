@@ -9,7 +9,7 @@ export default function Artwork() {
         fetch("artPieces.json")
             .then(res => res.json())
             .then(data => {
-                const select = data.find(item => item.id == id)
+                const select = data.find(item => item.id = id)
                 setArtwork(select)
             })
     }, [])
