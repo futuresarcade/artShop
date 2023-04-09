@@ -5,6 +5,7 @@ export default function Artwork() {
     const [artwork, setArtwork] = useState([])
     const { id } = useParams()
 
+
     useEffect(() => {
         fetch("artPieces.json")
             .then(res => res.json())
