@@ -135,6 +135,14 @@
         "name": "Butterfly",
         "image": "./butterfly.png",
         "category": "Thorvald Art"
+    },
+    {
+        "id": "18",
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 84 x 84 cm",
+        "name": "Butterfly",
+        "image": "./redDiamond.png",
+        "category": "Thorvald Art"
     }
 
 ]
