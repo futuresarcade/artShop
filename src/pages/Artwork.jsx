@@ -10,7 +10,7 @@ export default function Artwork() {
         fetch("artPieces.json")
             .then(res => res.json())
             .then(data => {
-                const select = data.find(item => item.id == id)
+                const select = data.find(item => item.id === id)
                 setArtwork(select)
             })
     }, [])
@@ -18,9 +18,13 @@ export default function Artwork() {
 
     return (
         <div>
-            <img src={artwork.image} alt={artwork.name} className="fullImage"  />
-            <h2>{artwork.name}</h2>
+            {artwork && (
+                <>
+                    <img src={artwork.image} alt={artwork.name} className="fullImage" />
+                    <h2>{artwork.name}</h2>
+                </>
+            )}
         </div>
-    )
+    );
 
 }
