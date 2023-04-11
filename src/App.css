@@ -71,6 +71,98 @@ nav a.active {
   margin: 20px;
 }
 
+.nav-buttons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-buttons button {
+  position: relative;
+  z-index: 1;
+  background: none;
+  border: none;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: rgb(168, 164, 164);
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.arrow:hover {
+  opacity: 1;
+}
+
+.arrow-left {
+  left: -20px;
+}
+
+.arrow-left::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.arrow-left::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  width: 12px;
+  height: 12px;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+
+.arrow-right {
+  right: -20px;
+}
+
+.arrow-right::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-135deg);
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.arrow-right::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  width: 12px;
+  height: 12px;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+
 @media(max-width: 750px) {
   .art-piece {
       width: calc(50% - 1rem);
@@ -82,7 +174,7 @@ nav a.active {
 }
 @media(max-width: 525px) {
   .art-piece {
-    width: calc(1000% - 1rem);
+    width: calc(100% - 1rem);
     margin-right: 5px;
     margin-bottom: 2rem;
     text-align: center;
