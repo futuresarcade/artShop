@@ -31,16 +31,16 @@ export default function Artwork() {
     return (
         <div>
             {artwork && (
-                <>
-                    <img src={artwork.image} alt={artwork.name} className="fullImage" />
+                <div className="container">
+                    <img src={artwork.image} alt={artwork.name} />
                     <h2>{artwork.name}</h2>
-                    <div className="nav-buttons">
-                        <button onClick={handlePrev} disabled={id === "1"}><span className="arrow arrow-left"></span>{"<"}</button>
-                        <button onClick={handleNext} disabled={id === "18"}>{">"}<span className="arrow arrow-right"></span></button>
-                    </div>
-                </>
-            )}
+                    <button onClick={handleNext} disabled={id === "18"}><span className="next-button">{">"}</span></button>
+                    <button onClick={handlePrev} disabled={id === "1"}><span className="prev-button">{"<"}</span></button>
 
+
+                </div>
+
+            )}
 
         </div>
     );

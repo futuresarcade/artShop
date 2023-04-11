@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, NavLink} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Artwork from "./pages/Artwork"
 import ArtList from "./pages/ArtList"
 import CategoryPages from "./pages/CategoryPages"
@@ -21,28 +21,15 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <nav>
-          <ul>
-            <li>
-              <NavLink to="/" className="active">All Art</NavLink>
-            </li>
-            {categories.map(category => (
-              <li key={category}>
-                <NavLink to={`/${category}`} className="active">{category}</NavLink>
-              </li>
-            ))}
-          </ul>
-        </nav>
 
         <Routes>
           <Route element = {<Layout />}>
-          <Route path="/" element={
+          <Route exact path="/" element={
             <>
               <h1>Art Works</h1>
               <ArtList artPieces={artPieces} />
             </>
           } />
-
 
           {categories.map(category => (
             <Route key={category} exact path={`/${category}`} element={

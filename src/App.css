@@ -71,96 +71,48 @@ nav a.active {
   margin: 20px;
 }
 
-.nav-buttons {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.nav-buttons button {
+.container {
   position: relative;
+}
+
+.container img {
+  margin-top: 50px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container .prev-button,
+.container .next-button {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  color: #f2eaea;
+  background-color: rgba(184, 178, 178, 0.777);
+  opacity: 0;
+  transition: opacity 0.3s;
   z-index: 1;
-  background: none;
-  border: none;
-  padding: 1rem;
-  font-size: 1.2rem;
-  color: rgb(168, 164, 164);
-  cursor: pointer;
 }
 
-.arrow {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 50%;
-  opacity: 0.5;
-  transition: opacity 0.3s ease;
+.container:hover .prev-button,
+.container:hover .next-button {
+  opacity: .8;
 }
 
-.arrow:hover {
-  opacity: 1;
+.container .prev-button {
+  left: 20px;
 }
 
-.arrow-left {
-  left: -20px;
+.container .next-button {
+  right: 20px;
 }
 
-.arrow-left::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(45deg);
-  width: 12px;
-  height: 12px;
-  border-top: 2px solid white;
-  border-right: 2px solid white;
-}
-
-.arrow-left::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-45deg);
-  width: 12px;
-  height: 12px;
-  border-bottom: 2px solid white;
-  border-left: 2px solid white;
-}
-
-.arrow-right {
-  right: -20px;
-}
-
-.arrow-right::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-135deg);
-  width: 12px;
-  height: 12px;
-  border-top: 2px solid white;
-  border-right: 2px solid white;
-}
-
-.arrow-right::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-45deg);
-  width: 12px;
-  height: 12px;
-  border-bottom: 2px solid white;
-  border-left: 2px solid white;
+.container span {
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  align-content: center;
 }
 
 @media(max-width: 750px) {
