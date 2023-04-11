@@ -84,13 +84,13 @@ nav a.active {
 .container .prev-button,
 .container .next-button {
   position: absolute;
-  top: 60%;
+  top: 85%;
   transform: translateY(-50%);
   width: 50px;
   height: 50px;
   color: #f2eaea;
   background-color: rgba(184, 178, 178, 0.777);
-  opacity: 0;
+  opacity: .4;
   transition: opacity 0.3s;
   z-index: 1;
 }
