@@ -86,8 +86,6 @@ nav a.active {
   position: absolute;
   top: 85%;
   transform: translateY(-50%);
-  width: 25px;
-  height: 25px;
   color: #f2eaea;
   background-color: rgba(104, 101, 101, 0.777);
   opacity: .4;
@@ -110,9 +108,10 @@ nav a.active {
 
 .container span {
   display: flex;
-  font-size: 1rem;
+  font-size: 1.2rem;
   justify-content: center;
   align-content: center;
+  padding:.5rem .7rem;
 }
 
 @media(max-width: 750px) {
