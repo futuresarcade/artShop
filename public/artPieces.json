@@ -2,13 +2,61 @@
     {
         "id": "1",
         "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 173 x 140 cm",
+        "name": "Opposites",
+        "image": "./opposites.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": "2",
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 124 x 124 cm",
+        "name": "Still Life",
+        "image": "./stilllife.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": "3",
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 183 x 145 cm",
+        "name": "Encounter",
+        "image": "./ovni.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": "4",
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 99 x 99 cm",
+        "name": "Dark Blue",
+        "image": "./darkblue.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": "5",
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 112 x 112 cm",
+        "name": "Butterfly",
+        "image": "./butterfly.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": "6",
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 84 x 84 cm",
+        "name": "Red Diamond",
+        "image": "./redDiamond.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": "7",
+        "author": "Thorvald Sanchez Jr.",
         "dimensions": " 170 x 117 cm",
         "name": "Nuevitas",
         "image": "./nuevitas.png",
         "category": "Thorvald Art"
     },
     {
-        "id": "2",
+        "id": "8",
         "author": "Thorvald Sanchez Jr.",
         "dimensions": " 145 x 145 cm",
         "name": "Vortex",
@@ -16,7 +64,7 @@
         "category": "Thorvald Art"
     },
     {
-        "id": "3",
+        "id": "9",
         "author": "Thorvald Sanchez Jr.",
         "dimensions": " 38 x 64 cm",
         "name": "Trapped",
@@ -24,7 +72,7 @@
         "category": "Thorvald Art"
     },
     {
-        "id": "4",
+        "id": "10",
         "author": "Thorvald Sanchez Jr.",
         "dimensions": " 125 x 152 cm",
         "name": "Midnight",
@@ -32,7 +80,7 @@
         "category": "Thorvald Art"
     },
     {
-        "id": "5",
+        "id": "11",
         "author": "Thorvald Sanchez Jr.",
         "dimensions": " 145 x 145 cm",
         "name": "Time",
@@ -40,7 +88,7 @@
         "category": "Thorvald Art"
     },
     {
-        "id": "6",
+        "id": "12",
         "author": "Thorvald Sanchez Jr.",
         "dimensions": " 150 x 117 cm",
         "name": "Nuevitas II ",
@@ -48,7 +96,7 @@
         "category": "Thorvald Art"
     },
     {
-        "id": "7",
+        "id": "13",
         "author": "Thorvald Sanchez Jr.",
         "dimensions": " 84 x 114 cm",
         "name": "Alba",
@@ -56,7 +104,7 @@
         "category": "Thorvald Art"
     },
     {
-        "id": "8",
+        "id": "14",
         "author": "Thorvald Sanchez Jr.",
         "dimensions": " 125 x 117 cm",
         "name": "CountDown",
@@ -64,7 +112,7 @@
         "category": "Thorvald Art"
     },
     {
-        "id": "9",
+        "id": "15",
         "author": "Thorvald Sanchez Jr.",
         "dimensions": " 147 x 101 cm",
         "name": "Force",
@@ -73,7 +121,7 @@
     },
     
     {
-        "id": "10",
+        "id": "16",
         "author": "Thorvald Sanchez Jr.",
         "dimensions": " 140 x 117 cm",
         "name": "Light Sabers",
@@ -81,7 +129,7 @@
         "category": "Thorvald Art"
     },
     {
-        "id": "11",
+        "id": "17",
         "author": "Thorvald Sanchez Jr.",
         "dimensions": " 124 x 124 cm",
         "name": "Count Down II",
@@ -89,60 +137,13 @@
         "category": "Thorvald Art"
     },
     {
-        "id": "12",
+        "id": "18",
         "author": "Thorvald Sanchez Jr.",
         "dimensions": " 84 x 84 cm",
         "name": "Domino",
         "image": "./domino.png",
         "category": "Thorvald Art"
-    },
-    {
-        "id": "13",
-        "author": "Thorvald Sanchez Jr.",
-        "dimensions": " 173 x 140 cm",
-        "name": "Opposites",
-        "image": "./opposites.png",
-        "category": "Thorvald Art"
-    },
-    {
-        "id": "14",
-        "author": "Thorvald Sanchez Jr.",
-        "dimensions": " 124 x 124 cm",
-        "name":"Still Life",
-        "image": "./stilllife.png",
-        "category": "Thorvald Art"
-    },
-    {
-        "id": "15",
-        "author": "Thorvald Sanchez Jr.",
-        "dimensions": " 183 x 145 cm",
-        "name": "Encounter",
-        "image": "./ovni.png",
-        "category": "Thorvald Art"
-    },
-    {
-        "id": "16",
-        "author": "Thorvald Sanchez Jr.",
-        "dimensions": " 99 x 99 cm",
-        "name": "Dark Blue",
-        "image": "./darkblue.png",
-        "category": "Thorvald Art"
-    },
-    {
-        "id": "17",
-        "author": "Thorvald Sanchez Jr.",
-        "dimensions": " 112 x 112 cm",
-        "name": "Butterfly",
-        "image": "./butterfly.png",
-        "category": "Thorvald Art"
-    },
-    {
-        "id": "18",
-        "author": "Thorvald Sanchez Jr.",
-        "dimensions": " 84 x 84 cm",
-        "name": "Red Diamond",
-        "image": "./redDiamond.png",
-        "category": "Thorvald Art"
     }
+    
 
 ]
