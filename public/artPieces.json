@@ -18,9 +18,9 @@
     {
         "id": "3",
         "author": "Thorvald Sanchez Jr.",
-        "dimensions": " 183 x 145 cm",
-        "name": "Encounter",
-        "image": "./ovni.png",
+        "dimensions": " 155 x 155 cm",
+        "name": "Squares",
+        "image": "./squares.png",
         "category": "Thorvald Art"
     },
     {
@@ -142,6 +142,14 @@
         "dimensions": " 84 x 84 cm",
         "name": "Domino",
         "image": "./domino.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": "19",
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 183 x 145 cm",
+        "name": "Encounter",
+        "image": "./ovni.png",
         "category": "Thorvald Art"
     }
     
