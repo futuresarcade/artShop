@@ -73,6 +73,12 @@ nav a.active {
 
 .pagination a {
   margin: 20px;
+  color: #474646;
+
+}
+
+.pagination a:hover {
+  color: #000;
 }
 
 .container {
