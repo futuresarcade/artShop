@@ -37,6 +37,7 @@ nav a.active {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  
 }
 
 .art-piece {
@@ -44,6 +45,7 @@ nav a.active {
   margin-right: 5px;
   margin-bottom: 2rem;
   text-align: center;
+  
 }
 
 .art-piece img {
@@ -54,17 +56,19 @@ nav a.active {
 .art-piece h2 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  color:#000;
 }
 
 .art-piece p {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-size: 0.8rem;
+  color: #000;
 }
 
 .fullImage {
   width: 100%;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .pagination a {
