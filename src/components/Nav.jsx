@@ -20,11 +20,11 @@ export default function Nav() {
     <nav>
         <ul>
             <li>
-                <NavLink active to="/" className="active">All Art</NavLink>
+                <NavLink  to="/" className="active">All Art</NavLink>
             </li>
             {categories.map(category => (
                 <li key={category}>
-                    <NavLink exact to={`/${category}`} className="active">{category}</NavLink>
+                    <NavLink to={`/${category}`} className="active">{category}</NavLink>
                 </li>
             ))}
         </ul>

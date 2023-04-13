@@ -24,7 +24,7 @@ function App() {
 
         <Routes>
           <Route element = {<Layout />}>
-          <Route exact path="/" element={
+          <Route  path="/" element={
             <>
               <h1>Art Works</h1>
               <ArtList artPieces={artPieces} />
@@ -32,14 +32,14 @@ function App() {
           } />
 
           {categories.map(category => (
-            <Route key={category} exact path={`/${category}`} element={
+            <Route key={category} path={`/${category}`} element={
               <>
                 <h1>{category}</h1>
                 <CategoryPages artPieces={artPieces.filter(item => item.category == category)} />
               </>
             } />
           ))}
-            <Route exact path="/:id" element={<Artwork />} />
+            <Route  path="/:id" element={<Artwork />} />
           </Route>
         </Routes>
       </div>
