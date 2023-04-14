@@ -1,5 +1,6 @@
 import React, { useState } from "react"
-import {useLocation, Link} from "react-router-dom"
+import { useLocation, Link } from "react-router-dom"
+import Bio from "./Bio"
 
 
 export default function ArtList({ artPieces }) {
@@ -21,11 +22,13 @@ export default function ArtList({ artPieces }) {
         setPage(page - 1)
         window.scrollTo(0, 0)
     }
-
-
+    
     return (
+
         <>
+            {!location.search.includes("page=") && <Bio />}
             <div className="art-list">
+                <h1>Art Works</h1>
                 {items.map(item => (
                     <div className="art-piece" key={item.id}>
                         <Link to={`/${item.id}`} >

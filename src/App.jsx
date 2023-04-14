@@ -26,7 +26,7 @@ function App() {
           <Route element = {<Layout />}>
           <Route  path="/" element={
             <>
-              <h1>Art Works</h1>
+              
               <ArtList artPieces={artPieces} />
             </>
           } />

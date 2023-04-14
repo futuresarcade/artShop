@@ -10,6 +10,9 @@
   margin: 0 auto;
   padding: 1rem;
 }
+nav {
+  margin-bottom: 50px;
+}
 
 nav ul {
   display: flex;
@@ -33,11 +36,19 @@ nav a.active {
   color: #0095f6;
 }
 
+
 .art-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   
+}
+
+.art-list h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  width: 100%;
+  font-size: 1.5rem;
 }
 
 .art-piece {
@@ -55,7 +66,7 @@ nav a.active {
 
 .art-piece h2 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   color:#000;
 }
 
@@ -123,7 +134,29 @@ nav a.active {
   align-content: center;
   padding:.5rem .7rem;
 }
+.bio {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  max-width: 70%;
 
+}
+.bio h2 {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  line-height: 1;
+}
+.bio h2 .dob {
+  font-size: 1rem;
+  margin-top: 0;
+}
+.bio p {
+  margin-top: 0;
+}
+.bio ul {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  list-style: none;
+}
 @media(max-width: 750px) {
   .art-piece {
       width: calc(50% - 1rem);
