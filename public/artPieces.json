@@ -6,9 +6,16 @@
         "name": "Opposites",
         "image": "./opposites.png",
         "category": "Thorvald Art"
+    },{
+        "id": "2",
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 124 x 124 cm",
+        "name": "Elle",
+        "image": "./elle.png",
+        "category": "Thorvald Art"
     },
     {
-        "id": "2",
+        "id": "3",
         "author": "Thorvald Sanchez Jr.",
         "dimensions": " 119 x 110 cm",
         "name": "Elle",
@@ -147,17 +154,17 @@
     {
         "id": "19",
         "author": "Thorvald Sanchez Jr.",
-        "dimensions": " 183 x 145 cm",
-        "name": "Encounter",
-        "image": "./ovni.png",
+        "dimensions": " 125 x 125 cm",
+        "name": "Still Life",
+        "image": "./stilllife.png",
         "category": "Thorvald Art"
     },
     {
         "id": "20",
         "author": "Thorvald Sanchez Jr.",
-        "dimensions": " 124 x 124 cm",
-        "name": "Light Sabers",
-        "image": "./lightsabers.png",
+        "dimensions": " 182 x 145 cm",
+        "name": "Encounters",
+        "image": "./encounters.png",
         "category": "Thorvald Art"
     }
     
