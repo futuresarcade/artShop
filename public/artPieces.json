@@ -138,9 +138,9 @@
     {
         "id": "17",
         "author": "Thorvald Sanchez Jr.",
-        "dimensions": " 124 x 124 cm",
-        "name": "Count Down II",
-        "image": "./countdown2.png",
+        "dimensions": " 117 x 117 cm",
+        "name": "Sunflower",
+        "image": "./sunflower.png",
         "category": "Thorvald Art"
     },
     {
@@ -158,6 +158,14 @@
         "dimensions": " 182 x 145 cm",
         "name": "Encounters",
         "image": "./encounters.png",
+        "category": "Thorvald Art"
+    },
+    {
+        "id": "20",
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 125 x 117 cm",
+        "name": "CountDown",
+        "image": "./countdown.png",
         "category": "Thorvald Art"
     }
     
