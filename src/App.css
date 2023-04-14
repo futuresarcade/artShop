@@ -163,7 +163,12 @@ nav a.active {
       margin-right: 5px;
       margin-bottom: 2rem;
       text-align: center;
+
     }
+    .bio p {
+      max-width: 100%;
+    }
+    
 
 }
 @media(max-width: 525px) {
@@ -173,5 +178,9 @@ nav a.active {
     margin-bottom: 2rem;
     text-align: center;
   }
+  .bio p {
+    max-width: 100%;
+  }
+  
 
 }
