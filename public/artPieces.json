@@ -15,11 +15,11 @@
         "category": "Thorvald Art"
     },
     {
-        "id": "3",
+        "id": "19",
         "author": "Thorvald Sanchez Jr.",
-        "dimensions": " 119 x 110 cm",
-        "name": "Elle",
-        "image": "./elle.png",
+        "dimensions": " 125 x 125 cm",
+        "name": "Still Life",
+        "image": "./stilllife.png",
         "category": "Thorvald Art"
     },
     {
@@ -151,16 +151,9 @@
         "image": "./domino.png",
         "category": "Thorvald Art"
     },
+   
     {
         "id": "19",
-        "author": "Thorvald Sanchez Jr.",
-        "dimensions": " 125 x 125 cm",
-        "name": "Still Life",
-        "image": "./stilllife.png",
-        "category": "Thorvald Art"
-    },
-    {
-        "id": "20",
         "author": "Thorvald Sanchez Jr.",
         "dimensions": " 182 x 145 cm",
         "name": "Encounters",
