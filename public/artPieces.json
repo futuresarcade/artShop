@@ -114,7 +114,7 @@
         "id": "14",
         "author": "Thorvald Sanchez Jr.",
         "dimensions": " 125 x 117 cm",
-        "name": "CountDown",
+        "name": "Count Down",
         "image": "./countdown.png",
         "category": "Thorvald Art"
     },
@@ -164,8 +164,8 @@
         "id": "20",
         "author": "Thorvald Sanchez Jr.",
         "dimensions": " 125 x 117 cm",
-        "name": "CountDown",
-        "image": "./countdown.png",
+        "name": "Count Down II ",
+        "image": "./countdown2.png",
         "category": "Thorvald Art"
     }
     
