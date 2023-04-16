@@ -34,7 +34,7 @@ export default function Artwork() {
                 <div className="container">
                     <img src={artwork.image} alt={artwork.name} />
                     <h2>{artwork.name}</h2>
-                    <button onClick={handleNext} disabled={id === "20"}><span className="next-button">{">"}</span></button>
+                    <button onClick={handleNext} disabled={id === "21"}><span className="next-button">{">"}</span></button>
                     <button onClick={handlePrev} disabled={id === "1"}><span className="prev-button">{"<"}</span></button>
 
 
