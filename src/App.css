@@ -165,7 +165,9 @@ nav a.active {
       text-align: center;
 
     }
+    
     .bio p {
+      margin: 0 auto;
       max-width: 100%;
     }
     
@@ -178,9 +180,15 @@ nav a.active {
     margin-bottom: 2rem;
     text-align: center;
   }
-  .bio p {
+  .bio {
+    /* width: 500px; */
+    margin: 0 auto;
     max-width: 100%;
+      min-width: 350px;
+      width: 100%vw;
   }
+  
+  
   
 
 }
