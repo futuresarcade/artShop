@@ -181,10 +181,10 @@ nav a.active {
     text-align: center;
   }
   .bio {
-    /* width: 500px; */
+  
     margin: 0 auto;
     max-width: 100%;
-      min-width: 350px;
+      min-width: 275px;
       width: 100%vw;
   }
   
