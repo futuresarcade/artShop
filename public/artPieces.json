@@ -175,7 +175,16 @@
         "name": "Sunflower",
         "image": "./sunflower.png",
         "category": "Thorvald Art"
+    },
+    {
+        "id": "21",
+        "author": "Thorvald Sanchez Jr.",
+        "dimensions": " 170 x 117 cm",
+        "name": "Nuevitas III",
+        "image": "./nuevitasIII.png",
+        "category": "Thorvald Art"
     }
+
     
 
 ]
